@@ -1,0 +1,371 @@
+@font-face {
+    font-family: 'DDCHardware-regular';
+    src: url(../fonts/dcchardware-regular-webfont.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    width: 411px;
+}
+
+img {
+    margin: 20px 0px;
+    width: 411px;
+}
+
+.header {
+    background-image: url("../images/homeheader.jpg");
+    margin: 20px 0px;
+    width: 411px;
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.progresshome {
+    width: 200px;
+/*    position: absolute;*/
+/*    left: 20px;*/
+    margin: 0px 110px;
+}
+
+.cadeauicon {
+    width: 50px;
+    position: absolute;
+margin: -270px 0px 0px 340px;
+}
+
+.header h1 {
+    color: white;
+    font-size: 30px;
+    display: block;
+    padding: 20px;
+    text-align: -webkit-center;
+    font-family: DDCHardware-regular;
+}
+
+h2 {
+    color: black;
+    margin: 0px 20px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.phone {
+    background-image: url("../images/achtergrond_tasks.png");
+    margin: 20px 0px;
+    width: 411px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p.amount_done {
+    color: white;
+    font-size: 20px;
+    font-family: roboto;
+    margin: 0px 20px;
+}
+
+.phone h2 {
+    color: white;
+    margin: 20px 20px;
+    display: inline-block;
+    font-size: 25px;
+    font-family: DDCHardware-regular;
+}
+
+.bank {
+    background-image: url("../images/achtergrond_tasks.png");
+    margin: 20px 0px;
+    width: 411px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bank h2 {
+    color: white;
+    margin: 20px 20px;
+    display: inline-block;
+    font-size: 25px;
+    font-family: DDCHardware-regular;
+}
+
+.living {
+    background-image: url("../images/achtergrond_tasks.png");
+    margin: 20px 0px;
+    width: 411px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.living h2 {
+    color: white;
+    margin: 20px 20px;
+    display: inline-block;
+    font-size: 25px;
+    font-family: DDCHardware-regular;
+}
+
+.transport {
+    background-image: url("../images/achtergrond_tasks.png");
+    margin: 20px 0px;
+    width: 411px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.transport h2 {
+    color: white;
+    margin: 20px 20px;
+    display: inline-block;
+    font-size: 25px;
+    font-family: DDCHardware-regular;
+}
+
+.progressbar {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px 20px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    margin: -110px 30px;
+
+}
+
+.phoneheader {
+    background-image: url("../images/achtergrond_phone.png");
+    margin: 20px 0px;
+    width: 411px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+}
+
+.phoneheader h1 {
+    color: white;
+    padding: 20px;
+    display: block;
+    font-size: 30px;
+    text-align: -webkit-center;
+    font-family: DDCHardware-regular;
+}
+
+.amountdone {
+    color: white;
+    font-size: 20px;
+    font-family: roboto;
+    margin: 40px auto 0px auto;
+    text-align: -webkit-center;
+    display: block;
+}
+
+p.info {
+    color: #FFFFFF;
+    opacity: 0.55;
+    font-size: 18px;
+    font-family: roboto;
+    margin: -15px auto;
+    text-align: -webkit-center;
+    display: block;
+}
+
+.progressbartask {
+    width: 300px;
+    display: block;
+    margin: 15px auto;
+}
+
+.streep {
+    width: 5px;
+    height: 700px;
+    margin: -20px 40px;
+    position: absolute;
+    z-index: -1;
+}
+
+.bankheader {
+    background-image: url("../images/achtergrond_bank.png");
+    margin: 20px 0px;
+    width: 411px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bankheader h1 {
+    color: white;
+    padding: 20px;
+    display: block;
+    font-size: 30px;
+    text-align: -webkit-center;
+    font-family: DDCHardware-regular;
+}
+
+.livingheader {
+    background-image: url("../images/achtergrond_bank.png");
+    margin: 20px 0px;
+    width: 411px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.livingheader h1 {
+    color: white;
+    padding: 20px;
+    display: block;
+    font-size: 30px;
+    text-align: -webkit-center;
+    font-family: DDCHardware-regular;
+}
+
+.transportheader {
+    background-image: url("../images/achtergrond_bank.png");
+    margin: 20px 0px;
+    width: 411px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.transportheader h1 {
+    color: white;
+    padding: 20px;
+    display: block;
+    font-size: 30px;
+    text-align: -webkit-center;
+    font-family: DDCHardware-regular;
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    border: 10px solid black;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #F8A441;
+    border-radius: 50px;
+    background-color: white;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: white;
+}
+
+/* When the checkbox is checked, add a yellow background */
+.container input:checked ~ .checkmark {
+    background-color: #F8A441;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.tekst {
+    width: 279px;
+    margin: 10px 0px 0px 90px;
+}
+
+.tekst_buttons {
+    width: 340px;
+    margin: 15px 0px 0px 27px;
+    z-index: 0;
+}
+
+.cadeauheader {
+    background-image: url("../images/achtergrond_cadeau.jpg");
+    margin: 20px 0px;
+    width: 411px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer
+}
+
+.cadeauheader h1 {
+    color: white;
+    padding: 20px;
+    display: block;
+    font-size: 30px;
+    text-align: -webkit-center;
+    font-family: DDCHardware-regular;
+}
